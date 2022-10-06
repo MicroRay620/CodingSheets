@@ -1,0 +1,124 @@
+body {
+	background-color: #292B36;
+}
+h1 {
+	color: #00b3b3;
+	font-family: Verdana;
+	font-size: 45px;
+	text-shadow: 3.7px 3.5px #006a6a;
+}
+h3 {
+	color: #a4674c;
+	font-family: courier;
+}
+h4 {
+	font-family: cambria;
+}
+p {
+	color: #d3d3d3;
+	font-family:arial;
+	font-size: 16px;
+}
+li {
+	color: #ffffff;
+	font-family: arial;
+	border: #48549c solid 5px;
+	background-color: #48549c;
+	margin-right: 300px;
+}
+div#cs {
+	color: #d3d3d3; /*temporary element*/
+	font-family: consolas;
+	font-weight: bold;
+	font-size: 60px;
+	text-align: center
+}
+div.body {
+	margin-right: 400px;
+	margin-left: 10px;
+	padding: 3px;
+	border: #36394d solid 7px;
+	border-radius: 20px 20px 20px 20px;
+	background-color: #36394d;
+}
+div.topbanner {
+	text-align: center;
+	padding: 20px;
+	border: #ffd700 solid 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+div.center {
+	text-align: center;
+}
+span#code {
+	color:#50c878;
+}
+span#sheets {
+	color: #1c4dff;
+}
+span.bold {
+	font-weight: bold;
+}
+span.italic {
+	font-weight: italic;
+}
+a#home {
+	text-decoration: none;
+	color: #00b3b3;
+}
+a#html {
+	color: #ffffff;
+	font-family: arial;
+	text-align: center;
+	text-decoration: none;
+	padding: 3px;
+	border: #02734a solid 10px;
+	border-radius: 40px 40px 40px 40px;
+	background-color: #02734a;
+	box-shadow: 5px 5.5px #025939;
+}
+a#css {
+	color: #ffffff;
+	font-family: arial;
+	text-align: center;
+	text-decoration: none;
+	padding: 3px;
+	border: #1034a6 solid 10px;
+	border-radius: 40px 40px 40px 40px;
+	background-color: #1034a6;
+	box-shadow: 5px 5.5px #0b2373;
+}
+a#js {
+	color: #ffffff;
+	font-family: arial;
+	text-align: center;
+	text-decoration: none;
+	padding: 3px;
+	border: #bf0404 solid 10px;
+	border-radius: 40px 40px 40px 40px;
+	background-color: #bf0404;
+	box-shadow: 5px 5.5px #990303;
+}
+a#history {
+	color: #ffffff;
+	font-family: arial;
+	text-align: center;
+	text-decoration: none;
+	padding: 3px;
+	border: #09b32e solid 10px;
+	border-radius: 40px 40px 40px;
+	background-color: #09b32e;
+	box-shadow: 5px 5.5px #089927;
+}
+a#about {
+	padding: 3px;
+	border: #990599 solid 10px;
+	border-radius: 40px 40px 40px 40px;
+	color: #ffffff;
+	background-color: #990599;
+	box-shadow: 5px 5.5px #730373;
+	text-align: center;
+	font-family: arial;
+	text-decoration: none;
+}
