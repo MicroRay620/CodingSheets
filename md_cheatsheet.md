@@ -6,4 +6,4 @@ This file is a simplied version and also for experimenting purposes.
 | Call | Purpose |
 |:----- | :---------- |
 | \*\[TEXT\]\* | Italic Text |
-\ \*\*\[TEXT\]\*\* | Bolds Text |
+| \*\*\[TEXT\]\*\* | Bolds Text |
