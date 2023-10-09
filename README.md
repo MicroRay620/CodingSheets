@@ -6,4 +6,4 @@ A website to help understand the basics of coding and if you need to rework your
 
 The homepage where you will find links to all pages on **CodingSheets**.
 - Linked Pages
-- - [About Creator](about_creator.html)
+  - [About Creator](about_creator.html)
