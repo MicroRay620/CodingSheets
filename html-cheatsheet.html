@@ -1,341 +1,283 @@
 <!DOCTYPE html>
- <html>
+<html>
 	<head>
 		<title>
 			HTML Cheatsheet
 		</title>
-		<link type="text/css" rel="stylesheet" href="css/html-cheatsheet.css">
-
-		<!--Start of CSS-->
-		<style>
-			/*Put CSS Here*/
-		</style>
-		<!--End of CSS-->
 		
-		<!--Start of JS-->
-		<script>
-			//Put of JS Here
-		</script>
-		<!--End of JS-->
+		<link type="text/css" rel="stylesheet" href="css/global.css"> <!--css in every file-->
+		<link type="text/css" rel="stylesheet" href="css/code-options.css"> <!--css in the cheatsheet files-->
+		<link type="text/css" rel="stylesheet" href="css/html-cheatsheet.css"> <!--css in just html cheatsheet-->
 	</head>
 	<body>
-        <h1>
-		<!-- add link to this file in <h1> -->
-        	<span  id="h1">HTML Cheatsheet</span>
+        <h1 class="title">
+            HTML Cheatsheet
         </h1>	
-		<div class="body">
+		<div class="main">
 			<p> 
 				Hypertext Markup Lanaguage or <span class="bold">HTML</span> is a language used to 
 				code websites (this website was even coded in HTML). HTML was invented in 1993. Files
-				written in HTML use <span class="lan">.html</span> file indicator.	This is
+				written in HTML use <span class="lantext">.html</span> file indicator.	This is
 				one of the languages in the web 3 lanaguages. The other two are 
-				<span class="lan">Cascading Stylesheets</span> (or
-				<span class="ib">CSS</span>) and <span class="lan">JavaScript</span> 
+				<span class="lantext">Cascading Stylesheets</span> (or
+				<span class="ib">CSS</span>) and <span class="lantext">JavaScript</span> 
 				(which is also called <
 				<br>
 				<br> <span class="bold"> NOTE: MAJORITY OF THE COMMAND WILL HAVE 
-				<span class="code"> &lt/&gt</span> CONTAINED IN IT!</span> Will say if a command
+				<span class="codetext"> &lt/&gt</span> CONTAINED IN IT!</span> Will say if a command
 				is an exception to this rule. Every command (or <span class="italic">tag</span>)
-				listed in this page will be written between <span class="code">&lthtml&gt</span>
-				and <span class="code">&lt/html&gt</span>.
+				listed in this page will be written between <span class="codetext">&lthtml&gt</span>
+				and <span class="codetext">&lt/html&gt</span>.
 			</p>
+
 			<h2>
 				Key Terms
 			</h2>
 			<p>
 				Before getting into the actual tags, let's get some terms defined that will be used.
 			</p>
-		</div>
-		<div class="tables">
-			<ul>
-				<li> 
-					<span class="bold">Tags</span>
-					<br> In coding, tags are what is put between <span class="command">&lt</span>
-					and <span class="command">&gt</span>.
-				</li>
-				<li>
-					<span class="bold">Attributes</span>
-					<br> Attributes are additions to tags. This can be have a word tied
-					to a <span class="lan">css</span> file or to a 
-					<span class="lan">js</span> file. It also can mean linking a word
-					to a website url.  These will be discussed in [insert section name].
-				</li>
-			</ul>
-		</div>
-		<div class="body">
-		<h3>
-			Structure Tags
-		</h3>
-		<p>
-			Structure tags are used to define areas which other tags can appear on the page.
-		</div>
-		<div class="tables">
-			<ul>
-				<li>
-					<span class="code">&ltbody&gt</span> is used to define tags in the body
-					portion of the page.
-					<br> This tag is the most common out of the two tags.
-				</li>
-				<li>
-					<span class="code">&ltfoot&gt</span> is used to define tags in the footer
-					portion of the page. With it being uncommon to use, it can be used to have buttons
-					in the bottom section of the page. 
-				</li>
-			</ul>
-		</div>
-		<h4> 
-			Text Tags
-		</h4>
-		<p> 
-			With the structure tags being defined, lets move to the tags that can be used to have
-			text contained in them. This list will include some tags that can be used to add 
-			various changes to the text.
-		</p>
-		<div class="tables">
-			<ul>
-				<li>
-					<span class="code">&lth#&gt</span> is used to make header text. 
-					<br> The <span class="bold">#</span> can be replaced by any number between 
-					1 and 6.
-				</li>
-				<li> 
-					<span class="code">&ltp&gt</span> is used to make standard text.
-					The most common tag to find on any website for text. 
-					<br> The <span class="bold">p</span> stands for
-					<span class="italics">paragraph</span>.
-				</li>
-					<ul>
-						<li>
-							<span class="code">&ltbr&gt</span> is used to add line break to
-							your text (like in <span class="code">&ltp&gt</span>). 
-							<br>
-							<span class="bold">You won't have 
-							<span class="code">&lt/br&gt</span> used in your document.
-						</li>
-						<p>
-							<span class="bold">THE NEXT TAGS ARE OFTEN DONE
-							IN A <a href="css-cheatsheet.html" class="link">CSS</a> FILE</span>
-						</p>
-						<li>
-							<span class="code">&ltb&gt</span> is used to 
-							<span class="italic">bold</span> text. 
-						</li>
-							<ul>
-								<li>
-									<span class="code">&ltstrong&gt</span> is also
-									used to bold text. (Honestly, if it has 
-									other uses to it, I do not know.
-									Everytime I used 
-									<span class="bold">&ltstrong&gt</span> I
-									saw no difference between bold and strong.
-								</li>
-							</ul>
-						<li>
-							<span class="code">&lti&gt</span> is used to
-							italize text.
-						</li>
-							<ul>
-								<li>
-									<span class="code">&ltem&gt</span> is also
-									used to italize text (it is truly used for 
-									empthasizing words, but I saw no diffference when 
-									I used this tag [in 
-									<a href="https://w3schools.com" class="link">w3schools</a>
-								</li>
-					</ul>		
-			</ul>
-		</div>
-		<h4>
-			Linking Tags
-		</h4>
-		<p>
-			Linking tags are used to insert various things into the 
-			document. This means inserting things like a an image or url.
-		</p>
-		<div class="tables">
-			<ul>
-				<li> 
-					<span class="code">&lta&gt</span> is used
-					to insert a clickable link to 
-					an external file or a website url into your html document.
-					<br> 
-					If you do not want to have it be different from the other text
-					or be modified, go to the <a href="css-cheatsheet.html" 
-					class="link">css cheatsheet</a> for how to do that.
-					<br>
-					<br>
-					To connect the this tag to the css file, you would have it as					
-					<span class="command"><span class="code">&lta</span>
-					href="website.com" class="name"&gt</span>. You can replace
-					<span class="command">class</span> with 
-					<span class="command">id</span>. 
-					<br> You would also replace the <span class="bold">name</span>
-					in </span class="command">class="name"</span> with whatever
-					you want to name it.
-				</li>
-					<ul>
-						<li>
-							<span class="command">
-							<span class="code">&lta</span>
-							href="website.com"<span class="code">&gt</span>
-							</span> is the whole basic command
-							used to insert a website url to your document. Of course
-							the <span class="command">href="website.com</span>
-							will have the <span class="command">website.com</span>
-							replaced with the actual url link.
-						</li>
-						<li>
-							<span class="command">
-							<span class="codetext">&lta</span>
-							href="file.html</span> is used to insert
-							a link to a file. You would change the 
-							<span class="command">file.html</span>
-							in 
-							<span class="command">href="file.html"</span>
-							would be changed to the file you are linking. 
-						</li>
-					</ul>
-			</ul>
-		</div>
-		<h2>
-			Head Tags
-		</h2>
-		<p>
-			These tags are used to link documents with each other and add more to your 
-			document. These use <span class="bold">attributes</span> to work. 
-			<br>
-			<br>
-			All tags used here are between <span class="code">&lthead&gt</span>
-			and <span class="code">&lt/head&gt</span>
-			portion of the document (which is often right below below the 
-			<span class="code">&lthtml&gt</span>). 
-		</p>
-		<h3>
-			Additional Key Terms
-		</h3>
-		<p> 
-			Before we get into the actual tags, lets define some key terms for this
-			section.
-		</p>
-		<div class="tables">
-			<ul>
-				<li>
-					<span class="bold">Block-level</span>
-					<br> Code that is using another file to define a command. An example
-					would be like &ltspan&gt for using css in an html document.
-					<br> <span class="bold">NOTE: USING THIS NEEDS A CSS OR JS
-					FILE TO BE LINKED TO!
-					</span> The ways to link those files will be explained in the 
-					<span class="code">&ltlink&gt</span> tag below.
-				</li>
-				<li>
-					<span class="bold">In-line</span>
-					<br> Code that is used for another language but is still in the
-					same file (lke having <span class="lan">css</span> in an
-					<span class="code">html</span> file.)
-				</li>
-			</ul>
-		</div>
-		<h3>
-			Head Text Tags 
-		</h3>
-		<p>
-			These are tags used to input text that would appear in a spot on the page (like in 
-			the Web Page tab.
-		</p>
-		<div class="tables">
-			<ul>
-				<li>
-					<span class="code">&lttitle&gt</span> is used to have text appear in
-					the web browser tab.
-				</li>
-			</ul>
-		</div>
-		<h3>
-			File [Head] Tags
-		</h3>
-		<p>
-			File tags are used to have <span class="bold">css</span> or 
-			<span class="bold">JavaScript</span> connected to/used in an html
-			document.
-		</p>
-		<div class="tables">
-		<!-- Remove <span class="lantext"> on HTML -->
-			<ul>
-				<li>
-					<span class="code">&ltstyle&gt</span> is used to have 
-					<span class="lan">css</span> code in an html
-					file. 
-					<br> 
-					(This is only used for in-line css code.)
-				</li>
-				<li>
-					<span class="code">&ltscript&gt</span> is used to have 
-					<span class="lan">JavaScript</span> in an html
-					file.
-					<br>
-					(This is used for in-line and block level JavaScript code.)
-				</li>
-					<ul>
-						<li>
-							<span class="code">&ltscript src="myjavascript.js"&gt
-							&lt/script&gt</span>
-							(<span class="bold">NOTE: 
-							<span class="code">&lt/script&gt</span> is required to 
-							be used)
-							is often used for block-level JavaScript.
-							<br>It can also have the additional attribute of 
-							<span class="command">type="text/javascript"</span>.
-				<li>
-					<span class="code">&ltlink&gt</span> is used to link a file to your
-					<span class="lan">html</span> file.
-					<br>
-					<span class="bold">You wouldn't use <span class="code">&lt/link&gt</span>
-					at all for this.
-				</li>
+		
+			<div class="tables">
+				<ul>
+					<li> 
+						<span class="bold">Tags</span>
+						<br> In coding, tags are what is put between <span class="commandtext">&lt</span>
+						and <span class="commandtext">&gt</span>.
+					</li>
+					<li>
+						<span class="bold">Attributes</span>
+						<br> Attributes are additions to tags. This can be have a word tied
+						to a <span class="lantext">css</span> file or to a 
+						<span class="lantext">js</span> file. It also can mean linking a word
+						to a website url.  These will be discussed in [insert section name].
+					</li>
+				</ul>
+			</div>
+		
+			<h3>
+				Structure Tags
+			</h3>
+		
+			<p>
+				Structure tags are used to define areas which other tags can appear on the page.
+			</p>
+		
+			<div class="tables">
+				<ul>
+					<li>
+						<span class="codetext">&ltbody&gt</span> is used to define tags in the body
+						portion of the page.
+						<br> This tag is the most common out of the two tags.
+					</li>
+					<li>
+						<span class="codetext">&ltfoot&gt</span> is used to define tags in the footer
+						portion of the page. With it being uncommon to use, it can be used to have buttons
+						in the bottom section of the page. 
+					</li>
+				</ul>
+			</div>
+		
+			<h4> 
+				Text Tags
+			</h4>
+			<p> 
+				With the structure tags being defined, lets move to the tags that can be used to have
+				text contained in them. This list will include some tags that can be used to add 
+				various changes to the text.
+			</p>
+			<div class="tables">
+				<ul>
+					<li>
+						<span class="codetext">&lth#&gt</span> is used to make header text. 
+						<br> The <span class="bold">#</span> can be replaced by any number between 
+						1 and 6.
+					</li>
+					<li> 
+						<span class="codetext">&ltp&gt</span> is used to make standard text.
+						The most common tag to find on any website for text. 
+						<br> The <span class="bold">p</span> stands for
+						<span class="italics">paragraph</span>.
+					</li>
 						<ul>
 							<li>
-								<span class="command"><span class="code">&ltlink</span> 
-								type="text/css" rel="stylesheet"
-								href="css/style.css"&gt</span> is used to link an external 
-								<span class="lan">css</span> file to your 
-								<span class="lan">html</span> file. You should have a
-								seperate folder labeled <span class="italic">css</span>
-								<br> <span class="bold">NOTE: in 
-								<span class="command">href="css/style.css"</span>, the
-								<span class="command">style.css</span> would be changed
-								to the name of your css file.
+								<span class="codetext">&ltbr&gt</span> is used to add line break to
+								your text (like in <span class="codetext">&ltp&gt</span>). 
+								<br>
+								<span class="bold">You won't have 
+								<span class="codetext">&lt/br&gt</span> used in your document.
 							</li>
+							<p>
+								<span class="bold">THE NEXT TAGS ARE OFTEN DONE
+								IN A <a href="css-cheatsheet.html" class="link">CSS</a> FILE</span>
+							</p>
+							<li>
+								<span class="codetext">&ltb&gt</span> is used to 
+								<span class="italic">bold</span> text. 
+							</li>
+								<ul>
+									<li>
+										<span class="codetext">&ltstrong&gt</span> is also
+										used to bold text. (Honestly, if it has 
+										other uses to it, I do not know.
+										Everytime I used 
+										<span class="bold">&ltstrong&gt</span> I
+										saw no difference between bold and strong.
+									</li>
+								</ul>
+							<li>
+								<span class="codetext">&lti&gt</span> is used to
+								italize text.
+							</li>
+								<ul>
+									<li>
+										<span class="codetext">&ltem&gt</span> is also
+										used to italize text (it is truly used for 
+										empthasizing words, but I saw no diffference when 
+										I used this tag [in 
+										<a href="https://w3schools.com" class="link">w3schools</a>
+						</ul>		
+				</ul>
+			</div>
+			<h2>
+				Head Tags
+			</h2>
+			<p>
+				These tags are used to link documents with each other and add more to your 
+				document. These use <span class="bold">attributes</span> to work. 
+				<br>
+				<br>
+				All tags used here are between <span class="codetext">&lthead&gt</span>
+				and <span class="codetext">&lt/head&gt</span>
+				portion of the document (which is often right below below the 
+				<span class="codetext">&lthtml&gt</span>). 
+			</p>
+			<h3>
+				Additional Key Terms
+			</h3>
+			<p> 
+				Before we get into the actual tags, lets define some key terms for this
+				section.
+			</p>
+			<div class="tables">
+				<ul>
+					<li>
+						<span class="bold">Block-level</span>
+						<br> Code that is using another file to define a command. An example
+						would be like &ltspan&gt for using css in an html document.
+						<br> <span class="bold">NOTE: USING THIS NEEDS A CSS OR JS
+						FILE TO BE LINKED TO!
+						</span> The ways to link those files will be explained in the 
+						<span class="codetext">&ltlink&gt</span> tag below.
+					</li>
+					<li>
+						<span class="bold">In-line</span>
+						<br> Code that is used for another language but is still in the
+						same file (lke having <span class="lantext">css</span> in an
+						<span class="codetext">html</span> file.)
+					</li>
+				</ul>
+			</div>
+			<h3>
+				Head Text Tags 
+			</h3>
+			<p>
+				These are tags used to input text that would appear in a spot on the page (like in 
+				the Web Page tab.
+			</p>
+			<div class="tables">
+				<ul>
+					<li>
+						<span class="codetext">&lttitle&gt</span> is used to have text appear in
+						the web browser tab.
+					</li>
+				</ul>
+			</div>
+			<h3>
+				File Tags
+			</h3>
+			<p>
+				File tags are used to have <span class="bold">css</span> or 
+				<span class="bold">JavaScript</span> connected to/used in an html
+				document.
+			</p>
+			<div class="tables">
+			<!-- Remove <span class="lantext"> on HTML -->
+				<ul>
+					<li>
+						<span class="codetext">&ltstyle&gt</span> is used to have 
+						<span class="lantext">css</span> code in an html
+						file. 
+						<br> 
+						(This is only used for in-line css code.)
+					</li>
+					<li>
+						<span class="codetext">&ltscript&gt</span> is used to have 
+						<span class="lantext">JavaScript</span> in an html
+						file.
+						<br>
+						(This is used for in-line and block level JavaScript code.)
+					</li>
+						<ul>
+							<li>
+								<span class="codetext">&ltscript src="myjavascript.js"&gt
+								&lt/script&gt</span>
+								(<span class="bold">NOTE: 
+								<span class="codetext">&lt/script&gt</span> is required to 
+								be used)
+								is often used for block-level JavaScript.
+								<br>It can also have the additional attribute of 
+								<span class="commandtext">type="text/javascript"</span>.
+					<li>
+						<span class="codetext">&ltlink&gt</span> is used to link a file to your
+						<span class="lantext">html</span> file.
+						<br>
+						<span class="bold">You wouldn't use <span class="codetext">&lt/link&gt</span>
+						at all for this.
+					</li>
+							<ul>
+								<li>
+									<span class="commandtext"><span class="codetext">&ltlink</span> 
+									type="text/css" rel="stylesheet"
+									href="css/style.css"&gt</span> is used to link an external 
+									<span class="lantext">css</span> file to your 
+									<span class="lantext">html</span> file. You should have a
+									seperate folder labeled <span class="italic">css</span>
+									<br> <span class="bold">NOTE: in 
+									<span class="commandtext">href="css/style.css"</span>, the
+									<span class="commandtext">style.css</span> would be changed
+									to the name of your css file.
+								</li>
+							</ul>
+					<li>
+						<span class="codetext">&ltspan&gt</span> is used to identify what text in
+						you <span class="lantext">html</span> file that you want a css
+						tag applied to. 
+					</li>
+						<ul>
+							<li>
+								<span class="commandtext"><span class="codetext">&ltspan&gt</span>
+								class="text"&gt</span> is used to have text style that would be repeated
+								in the <span class="lantext">html</span> represented. Like
+								<span class="bold">bold</span> or 
+								<span class="italic">italics</span>
+							</li>	
 						</ul>
-				<li>
-					<span class="code">&ltspan&gt</span> is used to identify what text in
-					you <span class="lan">html</span> file that you want a css
-					tag applied to. 
-				</li>
-					<ul>
-						<li>
-							<span class="command"><span class="code">&ltspan</span>
-							class="text"&gt</span> is used to have text style that would be repeated
-							in the <span class="lan">html</span> represented. Like
-							<span class="bold">bold</span> or 
-							<span class="italic">italics</span>
-						</li>	
-					</ul>
-			</ul>
+				</ul>
+			</div>
+			</div>
+			<p>
+				If you are just starting out with using HTML, I would recommend heading to 
+				<a id="w3" href="https://w3schools.com/">w3schools</a> or taking a web programming
+				course at your school (if it has it availalbe).
+			</p>
+	
+			</body>
 		</div>
-		</div>
-		<p>
-			If you are just starting out with using HTML, I would recommend heading to 
-			<a id="w3" href="https://w3schools.com/">w3schools</a> or taking a web programming
-			course at your school (if it has it availalbe).
-		</p>
+	<footer>
 		<a href="homepage.html" id="home"> 
 			Homepage 
 		</a>
-		<br>
-		<br>
-		<p>
-		</p>
+
 		<script scr="js/html-cheatsheet.js">
-	</body>
+	</footer>
 </html>
