@@ -15,4 +15,4 @@ The homepage where you will find links to all pages on **CodingSheets**.
  [For HTML Debugging and Previewing](https://html.onlineviewer.net/)
 
  ## Programmed
- **CodingSheets** was started in (Notepad++)[https://notepad-plus-plus.org/] and then made using (Microsoft Visual Studio)[https://visualstudio.microsoft.com/].
+ **CodingSheets** was started in [Notepad++](https://notepad-plus-plus.org/) and then made using [Microsoft Visual Studio](https://visualstudio.microsoft.com/).
