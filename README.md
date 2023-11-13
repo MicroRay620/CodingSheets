@@ -16,3 +16,6 @@ The homepage where you will find links to all pages on **CodingSheets**.
 
  ## Programmed
  **CodingSheets** was started in [Notepad++](https://notepad-plus-plus.org/) and then made using [Microsoft Visual Studio](https://visualstudio.microsoft.com/).
+
+ ## For More Information
+ See [History](history.html) for more of the history of **CodingSheets**.
