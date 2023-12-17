@@ -7,8 +7,6 @@ For more info go to the [About Creator](about_creator.html) page.
 [Homepage](homepage.html)
 
 The homepage where you will find links to all pages on **CodingSheets**.
-- Linked Pages
-  - [About Creator](about_creator.html)
 
 
  ## Sites for Debugging
@@ -19,3 +17,6 @@ The homepage where you will find links to all pages on **CodingSheets**.
 
  ## For More Information
  See [History](history.html) for more of the history of **CodingSheets**.
+
+## Purpose
+**CodingSheets** is designed as an Open-Sourced free to access referrence site for programmers. All you need to do is head to [Template](template.html) page and make a new file. Add the language and request a pull.
