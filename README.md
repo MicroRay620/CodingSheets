@@ -20,3 +20,5 @@ The homepage where you will find links to all pages on **CodingSheets**.
 
 ## Purpose
 **CodingSheets** is designed as an Open-Sourced free to access referrence site for programmers. All you need to do is head to [Template](template.html) page and make a new file. Add the language and request a pull.
+### Languages
+**CodingSheets** currently uses HTML, CSS, JavaScript, and soon will be using Bootstrap 5.
