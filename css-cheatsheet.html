@@ -4,99 +4,117 @@
 		<title> 
 			CSS Cheatsheet
 		</title>
+		<link text="css/text" rel="stylesheet" href="css/css-cheatsheet.css">
 		<link text="css/text" rel="stylesheet" href="css/global.css">
 		<link text="css/text" rel="stylesheet" href="css/code-options.css">
-		<link text="css/text" rel="stylesheet" href="css/css-cheatsheet.css">
-		
 	</head>
-	<!--End of head-->
-
-	<!--Start Body-->
+	
 	<body>
-		<h1>CSS Cheatsheet</h1>
-			<p>Cascading Stylesheets or <span class="bold">css</span> is a programming language developted
-			in 1994. Css is commonly used to style an HTML document. Files written in css use the 
-			<span class="codetext">.css</span> file indicator. 
-			<br>
-			<br>
-			As stated in the 
-			<a href="html-cheatsheet.html" 
-			id="html">html cheatsheet</a>, the way you connect a css file to an html file is by doing 
-			<br><span class="commandtext"><span class="codetext">&lt;link</span> type="text/css
-			rel="stylesheet" href="style.css"&gt;</span>, with 
-			<span class="commandtext">style.css</span> being the placeholder for your 
-			</span class="lantext">css</span> file.
-			<br>
-			<br>
-			<span class="bold"><!--Bold-->All tags in html can contain any attribute listed</span>.</p>
+		<h1 class="title">
+			CSS Cheatsheet
+		</h1>
+        
+		<div class="main">
+			<p>
+				<span class="lantext">Cascading Stylesheets</span> or <span class="bold">css</span> is a programming language developted
+				in 1994. CSS is commonly used to style an <span class="lantext">HTML</span> document. Files written in css use the 
+				<span class="codetext">.css</span> file indicator. 
+				<br>
+				<br>
+				As stated in the 
+				<a href="html-cheatsheet.html">html
+				cheatsheet</a>, the way you connect a <span class="lantext">css</span> file to an
+				<span class="lantext">html</span> file is by doing 
+				<br><span class="commandtext"><span class="codetext">&ltlink</span> type="text/css
+				rel="stylesheet" href="style.css"&gt</span>, with 
+				<span class="commandtext">style.css</span> being the placeholder for your 
+				<span class="lantext">css</span> file.
+				<br>
+				<br>
+				<span class="bold">All tags in html can contain any attribute listed</span>.
+			</p>
+        </div>
+        
+        <div class="sidenav">
+            <br> <!--Makes the logo look a bit nicer on webpage, moves it down one line-->
+			<!--Start Logo-->
+			<!--!!!DO NOT REMOVE LOGO!!!-->
+			<h1>
+				<a href="homepage.html"><span id="c">Coding</span><span id="s">Sheets</span></a><!--Span CSS code is found in 'global.css'-->
+			</h1>
+			<!--End Logo-->
+			
+			<!--Start Cheatsheet Dropdown-->
+			<div class="dropdown">
+				<!--The Button's color is done in the css file linked to this one, in this file it is called 'template.css'-->
+				<button class="dropbtn">Cheatsheets</button> <!--Cheatsheet dropdown button-->
+					
+					<!--Start Dropdown content-->
+					<div class="dropdown-content"> <!--Breaks if called anything other than 'dropdown-content'-->
+						<a href="html-cheatsheet.html">HTML</a>
+						<a href="js-cheatsheet.html">JS</a>
+						<a href="md-cheatsheet.html">Markdown</a>
+						<a href="python-cheatsheet.html">Python</a>
+					</div>
+					<!--End Dropdown Conent-->
+			</div>
+			<!--End Cheatsheet Dropdown-->
+            
+            <h2>
+                Sections
+            </h2>
 
-		<!--Start Text Changes-->
-		<h2>Text Change Tags</h2>
-			<p>Using CSS, can allow you to change various aspects of the text. The list below 
-			will show you tags that affect the text. These changes are often done by	
-			using the tag indicator (the character(s) between the &lt; &gt;  in the 
-			<span class="lantext">html</span> document.
-			<br>
-			These tags can be done by using <span class="commandtext">span</span> or 
-			<span class="commandtext">div</span>. This, again, is talked about in the
-			<a href="./html-cheatsheet.html" class="link">html cheatsheet</a></p>
-		
-			<!--Start of Text Change Table-->
+            <ul>
+                <li>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main">
+			<h4 id="text_change">
+				Text Change Tags
+			</h4>
+			<p>
+				Using CSS, it can allow you to change various aspects of the text. The list below 
+				will show you tags that affect the text. These changes are often down by	
+				using the tag indicator (the character(s) be tweeen the &lt &gt in the 
+				<span class="lantext">html</span> document.
+				<br>
+				These tags can be done by using <span class="commandtext">span</span> or 
+				<span class="commandtext">div</span>. This, again, is talked about in the
+				<a href="html-cheatsheet.html">html cheatsheet</a>
+			</p>
+            
 			<div class="tables">
 				<ul>
 					<li>
-						<span class="codetext">Color</span> is used to change the 
+						<span class="commandtext">Color</span> is used to change the 
 						color of the text.
 						<br>
-						Can use common color name or its 
-						<a href="https://en.wikipedia.org/wiki/Hexadecimal" class="link">hexcode</a>. 
-						(I recommend using the hexcode over the common name)
+						Can use common color name or its hexcode <!-- add a citation to what
+						hexcode is -->
+						. (I recommend 
+						using the hexcode over the common name)
 					</li>
 					<li>
-						<span class="codetext">font-family</span> is used to change what 
+						<span class="commandtext">font-family</span> is used to change what 
 						font your text is in. (Like having it be in <span class="bold">arial</span>)
 					</li>
 					<li> 
-						<span class="codetext">font-size</span> is used to change the size
+						<span class="commandtext">font-size</span> is used to change the size
 						of the text. 
 						<br>
 						<span class="bold">This does require it to be listed 
-						as <span class="commandtext"><span class="codetext">font-size:</span>#px;</span>
-						in the style
-						portion of the page/in the css file. (The <span class="italic">#</span>
-						would be chnaged to what number you want to use.)
+						as <span class="commandtext">font-size: #px;</span> in the style
+						portion of the page/in the css file.
 					</li>
 					<!-- Add in bold, italic, superscript and subscript -->
-					<li> 
-						<span class="codetext">font-weight</span> is used to add in 
-						bold, italics, superscript, subscript, and underline (to name a few)
-						to text. Which is done by including the word after the 
-						<span class="bold">colon</span> [:].
-						<br>The exact commands will be listed below.
-					</li>
-						<ul>
-							<li>
-								<span class="commandtext">bold</span> is used to apply 
-								<span class="bold">bold</span> to text. In the css file, it is written
-								<span class="commandtext"><span class="codetext">font-weight:</span>
-								bold;</span>.
-							</li>
-							<li>
-								<span class="commandtext">italic</span> is used to 
-								<span class="italic">italize</span> text. Which is written
-								as <span class="commandtext"><span class="codetext">font-weight:</span>
-								italic;</span>.
-							</li>
-						</ul>
 				</ul>
 			</div>
-			<!--End of Text Change Table-->
-		<!--End of Text Change-->
-		<footer>
-			<br>
-			<a href="homepage.html" id="home">Homepage<!--Change to Image--></a>
-			<br>
-			<br>
-		</footer>
+		</div>
+
+        
+        <footer>
+	    </footer>
 	</body>
 </html>

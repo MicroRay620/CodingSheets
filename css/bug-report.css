@@ -1,0 +1,16 @@
+h1#title {
+	/*font*/
+	font-family: 'Courier New', monospace;
+	font-size: 48px;
+}
+
+h1 {
+}
+
+.req {
+	color: red;
+}
+
+.tables {
+	padding: 5px;
+}
