@@ -1,0 +1,110 @@
+<!--When figured out, have the response convert the data into a .json file or pdf-->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<!--Start of Head-->
+	<head>
+		<!--Start Title-->
+		<title>
+			Bug Report 
+		</title>
+		<!--End Title-->
+		
+		<!--Start of Meta-->
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!--End of Meta-->
+
+		<!--Start of CSS Connect-->
+        <!--These files are found in the 'CSS' folder-->
+		<link type="text/css" rel="stylesheet" href="css/global.css"/> <!--CSS used in every file-->
+		<link type="text/css" rel="stylesheet" href="css/bug-report.css"/> <!--CSS for this file--> <!--Change 'template' to the html file's name-->
+		<!--End of CSS Connect-->
+
+        <!--Start of JS Connect-->
+        <!--These files are found in the 'JS' folder-->
+        <script src="js/global.js"></script> <!--JS in every file-->
+        <script src="js/template.js"></script> <!--JS for this file--> <!--Change 'template' to this file's name-->
+        <!--End JS Connect-->
+	</head>
+	<!--End of Head-->
+	
+	<!--Start Body-->
+	<body>
+		<!--Start Page Title-->
+		<h1 id="title">
+			Bug Report
+		</h1>
+		<!--End Page Title-->
+		
+		<div class="main">
+			<!--Start Report Intro-->
+			<p>
+				Welcome to the Bug Report Form.
+				<br>If you have an issue that isn't listed on this page, please send an email to
+				<a href="<!--CodingSheet email address-->"><!--CodingSheets Email address--></a>.
+				Otherwise, fill out this form.
+				<br>
+				<br>If you did not mean to click on this link, is a 
+				<a class="link" href="homepage.html">link to the homepage</a>.
+			<p>
+			<!--End Report Intro-->
+		</div>
+		
+		<!--Start Report Notice-->
+		<h4>
+			Notice
+		</h4>
+		
+		<div class="main">
+			<p>
+				If a sections has a <span class="bold"><span class="req">*</span></span>, 
+				that field must be filled out before you can continue.
+				<br>
+				Also, this form is anonymous and all the data is only distributed to a seperate file 
+				that is not under the MIT Open-Source License. 
+				It is like that for your privacy and only people who work with me, Ruby Rose, 
+				to make <span class="c">Coding</span><span class="s">Sheets</span> and I, Ruby Rose
+				can see the information you put. 
+				<br>
+				<br>The data you put is not to be shared to anyone else
+			</p>
+		</div>
+		<!--End Report Notice-->
+		
+		<!--Start Contact-->
+		<h2>
+			Contact
+		</h2>
+		
+		<div class="main">
+			<!--Start Form-->
+			<div class="tables"> <!--For Aesthetic purposes-->
+				<form action="php/bug-report-data.php" method="post" target="_blank">
+					<!--Start Name-->
+					<label for="name">Your Name<span class="req">*</span>:</label>
+					<br>
+					<input type="text" id="name" name="name" required>
+					<!--End Name-->
+					
+					<br>
+					<br>
+					
+					<!--Start Email-->
+					<label for="email">Email<span class="req">*</span>:</label>
+					<br>
+					<input type="text" id="email" name="email" required>
+					<!--End Email-->
+					
+					<br>
+					<br>
+					<label for="Country">Country<span class="req">*</span>:</label>
+					<br>
+					<input type="text" id="country" name="country" required>
+					<br>
+					<input type="submit">
+				</form>
+			</div>
+			<!--End Form-->
+		</div>
+	</body>
+</html>
